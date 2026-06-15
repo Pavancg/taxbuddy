@@ -1,4 +1,7 @@
 package com.taxbuddy.taxbuddy_ai_chat_service.entity;
 
-public class MessageRole {
+public enum MessageRole {
+    USER,
+    ASSISTANT,
+    SYSTEM
 }
